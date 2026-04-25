@@ -1,7 +1,7 @@
 import { portfolioData } from "@/data/portfolio";
 import { Section } from "@/components/ui/Section";
 import { motion } from "framer-motion";
-import { Terminal, Github } from "lucide-react";
+import { Terminal, Github, ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -47,14 +47,25 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4 w-full pt-4 border-t border-white/5">
+                <div className="flex flex-wrap gap-3 w-full pt-4 border-t border-white/5">
                   {project.repo ? (
-                    <a href={project.repo} target="_blank" rel="noreferrer" className="text-sm font-mono flex items-center gap-2 hover:text-primary transition-colors z-10">
-                      <Github className="w-4 h-4" /> Code
+                    <a
+                      href={project.repo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="relative z-10 inline-flex items-center gap-2 rounded-md border border-primary/60 bg-primary/10 px-4 py-2 text-sm font-mono font-semibold text-primary transition-all hover:bg-primary hover:text-primary-foreground hover:shadow-[0_0_20px_rgba(34,197,94,0.4)] active:scale-95"
+                    >
+                      <Github className="w-4 h-4" />
+                      <span>View Code</span>
+                      <ExternalLink className="w-3.5 h-3.5 opacity-70" />
                     </a>
                   ) : (
-                    <span className="text-sm font-mono flex items-center gap-2 text-muted-foreground/50 cursor-not-allowed" title="Source on request">
-                      <Github className="w-4 h-4" /> Code
+                    <span
+                      className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/5 px-4 py-2 text-sm font-mono font-semibold text-muted-foreground/60 cursor-not-allowed"
+                      title="Source on request"
+                    >
+                      <Github className="w-4 h-4" />
+                      <span>Source on request</span>
                     </span>
                   )}
                 </div>
