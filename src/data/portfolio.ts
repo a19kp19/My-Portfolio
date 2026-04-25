@@ -3,7 +3,7 @@ import { lazy, Suspense } from "react";
 export const portfolioData = {
   personalInfo: {
    
-    name: "Jhayrald Benitez",
+    name: "Jay Benitez",
     
     title: "1st Year BSIT Student & Aspiring Developer",
     
