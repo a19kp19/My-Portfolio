@@ -59,4 +59,47 @@ export const portfolioData = {
       repo: "",
     }
   ]
+
+  certifications: [
+    {
+      id: "usingcomputerandmobiledevices",
+      title: "Using Computer and Mobile Devices",
+      issuer: "Cisco Networking Academy",
+      date: "Sep 2025",
+      image: "/certificates/usingcomputerandmobiledevices.jpg",
+      verifyUrl: "https://www.credly.com/badges/13e25788-d016-47af-a8d1-5403d99773ec",
+    },
+    {
+      id: "computerhardwarebasics",
+      title: "Computer Hardware Basics",
+      issuer: "Cisco Networking Academy",
+      date: "Sep 2025",
+      image: "/certificates/computerhardwarebasics.jpg",
+      verifyUrl: "https://www.credly.com/badges/b2b72ee2-a6bf-4fa0-af83-56d455faac9a",
+    },
+    {
+      id: "operatingsystembasics",
+      title: "Operating System Basics",
+      issuer: "Cisco Networking Academy",
+      date: "Sep 2025",
+      image: "/certificates/operatingsystembasics.jpg",
+      verifyUrl: "https://www.credly.com/badges/9b3a26c1-74b7-44ae-b9d3-e7a7c5880629",
+    },
+    {
+      id: "htmlessentials",
+      title: "HTML Essentials",
+      issuer: "Cisco Networking Academy",
+      date: "Feb 2026",
+      image: "/certificates/htmlessentials.jpg",
+      verifyUrl: "https://www.credly.com/badges/261a20c3-87b1-45e3-b4a6-b8ed42b2be07",
+    },
+    {
+      id: "cssessentials",
+      title: "CSS Essentials",
+      issuer: "Cisco Networking Academy",
+      date: "March 2026",
+      image: "/certificates/cssessentials.jpg",
+      verifyUrl: "https://www.credly.com/badges/ce655184-0051-4c4f-8621-8e82b803379e",
+    },
+  ],
 };
