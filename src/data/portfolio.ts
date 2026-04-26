@@ -58,7 +58,7 @@ export const portfolioData = {
       link: "",
       repo: "",
     }
-  ]
+  ],
 
   certifications: [
     {
