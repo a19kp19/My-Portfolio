@@ -12,6 +12,7 @@ export function Nav() {
           <a href="#about" className="hover:text-primary transition-colors">./about</a>
           <a href="#skills" className="hover:text-primary transition-colors">./skills</a>
           <a href="#projects" className="hover:text-primary transition-colors">./projects</a>
+          <a href="#certs" className="hover:text-primary transition-colors">./certs</a>
           <a href="#contact" className="hover:text-primary transition-colors">./contact</a>
         </nav>
       </div>
