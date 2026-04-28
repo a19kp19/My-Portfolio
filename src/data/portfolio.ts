@@ -46,7 +46,7 @@ export const portfolioData = {
       description: "A website that has the tools for your healthy diet and fitness journey.",
       tags: ["HTML", "CSS", "JavaScript"],
       status: "Live",
-      link: "a19kp19.github.io/CalorieIQ/",
+      link: "https://a19kp19.github.io/CalorieIQ/",
       repo: "https://github.com/a19kp19/CalorieIQ",
     },
     {
