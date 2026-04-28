@@ -1,7 +1,7 @@
 import { portfolioData } from "@/data/portfolio";
 import { Section } from "@/components/ui/Section";
 import { motion } from "framer-motion";
-import { Terminal, Github, ExternalLink } from "lucide-react";
+import { Terminal, Github, ExternalLink, Globe } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -48,6 +48,18 @@ export function Projects() {
                   ))}
                 </div>
                 <div className="flex flex-wrap gap-3 w-full pt-4 border-t border-white/5">
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="relative z-10 inline-flex items-center gap-2 rounded-md border border-primary/60 bg-primary px-4 py-2 text-sm font-mono font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-[0_0_20px_rgba(34,197,94,0.4)] active:scale-95"
+                    >
+                      <Globe className="w-4 h-4" />
+                      <span>Visit Site</span>
+                      <ExternalLink className="w-3.5 h-3.5 opacity-70" />
+                    </a>
+                  )}
                   {project.repo ? (
                     <a
                       href={project.repo}
