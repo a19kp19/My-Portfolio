@@ -41,13 +41,13 @@ export const portfolioData = {
       repo: "https://github.com/a19kp19/Mariel-Store-Testing"
     },
     {
-      id: "project-two-tba",
-      title: "Project Two — TBA",
-      description: "Currently in the learning and planning phase. More exciting builds coming soon.",
-      tags: ["React", "TypeScript"],
-      status: "In Progress",
-      link: "",
-      repo: "",
+      id: "calorieiq",
+      title: "CalorieIQ",
+      description: "A website that has the tools for your healthy diet and fitness journey.",
+      tags: ["HTML", "CSS", "JavaScript"],
+      status: "Live",
+      link: "a19kp19.github.io/CalorieIQ/",
+      repo: "https://github.com/a19kp19/CalorieIQ",
     },
     {
       id: "project-three-tba",
