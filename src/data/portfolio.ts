@@ -50,12 +50,12 @@ export const portfolioData = {
       repo: "https://github.com/a19kp19/CalorieIQ",
     },
     {
-      id: "project-three-tba",
-      title: "Project Three — TBA",
-      description: "Exploring new frameworks and backend architectures. Details will be updated here.",
-      tags: ["Node.js", "Express"],
-      status: "In Progress",
-      link: "",
+      id: "weather-checker",
+      title: "Guide to Make Weather Checker with C",
+      description: "Weather Checker that uses a free weather API.",
+      tags: ["HTML", "CSS", "JavaScript", "C"],
+      status: "Live",
+      link: "weather-checker-a19kp19s-projects.vercel.app",
       repo: "",
     }
   ],
