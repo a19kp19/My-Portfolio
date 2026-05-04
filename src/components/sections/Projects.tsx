@@ -1,7 +1,7 @@
 import { portfolioData } from "@/data/portfolio";
 import { Section } from "@/components/ui/Section";
 import { motion } from "framer-motion";
-import { Terminal, Github, ExternalLink, Globe } from "lucide-react";
+import { Terminal, Github, ExternalLink, Globe, Lock } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -73,11 +73,11 @@ export function Projects() {
                     </a>
                   ) : (
                     <span
-                      className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/5 px-4 py-2 text-sm font-mono font-semibold text-muted-foreground/60 cursor-not-allowed"
-                      title="Source on request"
+                      className="inline-flex items-center gap-2 rounded-md border border-yellow-500/30 bg-yellow-500/5 px-4 py-2 text-sm font-mono font-semibold text-yellow-500/70 cursor-not-allowed"
+                      title="This repository is private"
                     >
-                      <Github className="w-4 h-4" />
-                      <span>Source on request</span>
+                      <Lock className="w-4 h-4" />
+                      <span>Private Repository</span>
                     </span>
                   )}
                 </div>
