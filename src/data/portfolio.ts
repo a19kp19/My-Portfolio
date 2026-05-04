@@ -55,7 +55,7 @@ export const portfolioData = {
       description: "Weather Checker that uses a free weather API.",
       tags: ["HTML", "CSS", "JavaScript", "C"],
       status: "Live",
-      link: "weather-checker-a19kp19s-projects.vercel.app",
+      link: "https://weather-checker-a19kp19s-projects.vercel.app",
       repo: "",
     }
   ],
